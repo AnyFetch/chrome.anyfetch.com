@@ -140,7 +140,7 @@ a {
 .header-thumbnail{
 	max-width: 100%;
 	text-align: center;
-	padding-top: 50px;
+	padding-bottom: 0px;
 }
 
 .use-case-thumbnail {
@@ -170,29 +170,29 @@ a {
 
 .intro-header {
 	padding-bottom: 50px;
-	margin-top: 70px;
+	margin-top: 0px;
 	color: #f8f8f8;
 	background-color: #14A8E1;
 	background: url(../images/svg/anyfetch_icon_raw.svg) no-repeat bottom right, url(../images/svg/banner.svg) no-repeat center center;
 	background-size: 20%, cover;
 	text-align: center;
-	height: 400px;
+	height: 200px;
 }
 
 .intro-salesfetch {
 	padding-bottom: 50px;
-	padding-top: 20px;
-	margin-top: 70px;
+	padding-top: 10px;
+	margin-top: 0px;
 	/*background-color: #14A8E1;*/
 	/*background: url(../images/svg/anyfetch_icon_raw.svg) no-repeat bottom right, url(../images/svg/banner.svg) no-repeat center center;*/
 	background-size: 20%, cover;
 	text-align: center;
-	height: 650px;
+	height: 850px;
 }
 
 .intro-header.min {
 	height: 200px;
-	padding-top: 0px;
+	padding-top: 5px;
 	background-size: 10%, cover;
 	text-align: left;
 }
@@ -205,7 +205,7 @@ a {
 
 .intro-message {
 	position: relative;
-	padding-top: 5%;
+	padding-top: 6%;
 	text-align: center;
 }
 
@@ -252,7 +252,7 @@ a {
 	}
 
 	.intro-message {
-		padding-bottom: 5%;
+		padding-top: 50px;
 	}
 
 	.intro-message > h1 {
