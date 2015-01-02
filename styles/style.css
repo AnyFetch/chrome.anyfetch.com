@@ -187,7 +187,6 @@ a {
 	/*background: url(../images/svg/anyfetch_icon_raw.svg) no-repeat bottom right, url(../images/svg/banner.svg) no-repeat center center;*/
 	background-size: 20%, cover;
 	text-align: center;
-	height: 850px;
 }
 
 .intro-header.min {
@@ -345,9 +344,6 @@ a {
 
 	.biography {
 		padding-left: 0px;
-	}
-	.intro-salesfetch {
-		height: 550px;
 	}
 }
 
