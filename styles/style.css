@@ -74,36 +74,25 @@ a {
 .center {
 	text-align: center;
 }
-
-.navbar,
-.navbar-brand,
-.navbar-nav li a {
-  line-height: 70px;
-  height: 70px;
-  min-height: 50px;
-  padding-top: 0;
-}
-
 .navbar-default {
 	background-color: #fff;
 }
 
-.navbar img {
-	width: 1.7em;
-	height: 1.7em;
+.navbar-nav {
+	margin-top: 15px;
 }
 
-.navbar-default .navbar-brand:hover {
-	color: #16A9E2;
-	opacity: 0.9;
+.navbar img {
+	width: 50px;
+	height: 50px;
 }
 
 /* Navbar Title*/
 .navbar-default .navbar-brand {
 	color: #16A9E2;
 	font-weight: 500;
-	line-height: 2.2em;
-	font-size: 2.1em;
+	padding-bottom: 10px;
+	font-size: 30px;
 	font-weight: 200;
 }
 
@@ -116,10 +105,16 @@ a {
 /* Button in navbar */
 .navbar-default .navbar-nav>li>.btn {
 	margin-left: 10px;
+	margin-top: 15px;
+	padding-top: 15px;
 	color: #777;
 	background-color: #fff;
 	border-color: #888;
-	/*height: 25px;*/
+	height: 50px;
+}
+
+.navbar-collapse, .navbar-header {
+	margin-top: -15px;
 }
 
 .navbar-default .navbar-nav>li>.btn:hover {
@@ -218,6 +213,7 @@ a {
 	position: relative;
 	padding-top: 6%;
 	text-align: center;
+	padding-top: 70px;
 }
 
 .intro-message > h1 {
@@ -260,10 +256,6 @@ a {
 @media (max-width: 767px) {
 	.hidden-mobile {
 		display: none;
-	}
-
-	.intro-message {
-		padding-top: 50px;
 	}
 
 	.intro-message > h1 {
