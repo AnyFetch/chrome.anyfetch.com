@@ -37,6 +37,16 @@ strong {
 	border-color: #fff;
 }
 
+.home-btn{
+	background-color: #16A9E2;
+}
+
+.btn:hover {
+	background-color: #FCAD6C;
+	color: #fff;
+	border-color: #fff;
+}
+
 .btn-top{
 	margin-left: 10px;
 	/*margin-top: 15px;*/
