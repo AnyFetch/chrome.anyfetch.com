@@ -37,10 +37,18 @@ strong {
 	border-color: #fff;
 }
 
-.btn-top{
+.btn {
+	background-color: #16A9E2;
+}
+
+.btn:hover {
+	background-color: #FCAD6C;
+	color: #fff;
+	border-color: #fff;
+}
+
+.btn-top {
 	margin-left: 10px;
-	/*margin-top: 15px;*/
-	/*padding-top: 15px;*/
 	border-color: #888;
 	height: 25px;
 }
@@ -148,11 +156,16 @@ a {
 	max-width: 100%;
 	text-align: center;
 	padding-bottom: 0px;
+	margin-top: 40px;
 }
 
 .use-case-thumbnail {
 	text-align: center;
 	padding-top: 50px;
+}
+
+.cta {
+	margin-top: 40px;
 }
 
 @media (max-width: 767px) {}
@@ -214,6 +227,7 @@ a {
 	padding-top: 6%;
 	text-align: center;
 	padding-top: 70px;
+	margin-bottom: 20px;
 }
 
 .intro-message > h1 {
